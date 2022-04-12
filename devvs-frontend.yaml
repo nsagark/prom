@@ -10,6 +10,6 @@ spec:
   http:
     - route:
         - destination:
-            host: frontend-service.test.svc.cluster.local
+            host: frontend-service.test
             port:
               number: 8081
